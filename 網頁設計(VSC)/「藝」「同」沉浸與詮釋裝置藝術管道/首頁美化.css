@@ -1,6 +1,25 @@
 /* 已在下方設定好語言--CSS */
 /* 選擇器{屬性:值} */
-p{
-	font-size: 15px;
-	color: #f00;
+h1{
+	background-color: rgb(211, 119, 161);
+	text-align: center;
+	color: rgb(175, 219, 251);
+}
+a:link{
+	text-decoration: none;
+	background-color: rgb(162, 246, 235);
+	padding: 20px;
+	box-shadow: 5px 0px 5px rgb(116, 204, 221);
+	text-align: center;
+	color: rgb(175, 219, 251);	
+	text-align: center;
+	letter-spacing: 5px;
+	@font-face {
+		font-family: MyCustomFont;
+		unicode-range:U+00-7F;
+		src: url();
+	}font-family:My;
+
+}
+div{
 }
